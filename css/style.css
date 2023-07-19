@@ -57,6 +57,21 @@ color: white;
 .product:hover .heart{
   color: red;
 }
+
+.img1{
+  display: block;
+}
+.img2{
+  display: none;
+}
+.product:hover .img1{
+  display: none;
+}
+
+.product:hover .img2{
+  display: block;
+}
+
 .discount{
   position: absolute;
   bottom: 120px;
