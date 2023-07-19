@@ -119,17 +119,19 @@ img{
 
 ul li{
   list-style: none;
+  margin-right: 25px;
 }
 
 
 .footsx{
   width: 50%;
-  background-color: rgb(8, 82, 57);
+  
 }
 
 .footdx{
   width: 50%;
-  background-color: rgb(227, 192, 150);
+  
+  
 }
 
 .legal{
@@ -141,3 +143,7 @@ ul li{
   margin-top: 30px;
   
  } 
+
+ .icone{
+  margin-left: 10px;
+ }
