@@ -3,10 +3,49 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.d-flex{
+  display: flex;
+}
+.debug{
+  
+  border: solid 1px black
+}
 .container{
   width: 90%;
 max-width: 1200px;
 margin: 0 auto;
+
+
+}
+
+.container-main{
+  width: 90%;
+max-width: 1200px;
+margin: 0 auto;
+flex-wrap: wrap;
+}
+
+
+
+.header-top{
+  width: 100%;
+  background-color: rgb(211, 117, 10);
+  position: fixed;
+}
+
+#logo{
+  max-width: 200px;
+}
+
+.container-head{
+  width: 90%;
+max-width: 1200px;
+margin: 0 auto;
+justify-content: space-between;
+
+}
+
+img{
+  max-width: 350px;
 }
 
