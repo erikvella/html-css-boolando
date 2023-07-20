@@ -32,7 +32,8 @@ justify-content: space-around;
   background-color: rgb(211, 117, 10);
   position: fixed;
   top: 0;
-  box-shadow:10px 10px;
+  box-shadow:0 1px 3px;
+  z-index: 999;
 }
 
 #logo{
